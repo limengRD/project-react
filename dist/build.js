@@ -9762,6 +9762,10 @@ var _publisher = __webpack_require__(184);
 
 var _publisher2 = _interopRequireDefault(_publisher);
 
+var _index = __webpack_require__(185);
+
+var _index2 = _interopRequireDefault(_index);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(_publisher2.default, null), document.getElementById('content'));
@@ -22482,6 +22486,12 @@ var Publisher = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publisher;
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: D:\\project-react\\app\\components\\publisher\\index.scss Unexpected token (2:0)\nYou may need an appropriate loader to handle this file type.\n| $color: red;\r\n| .title{\r\n|     color: $color;\r\n| }");
 
 /***/ })
 /******/ ]);
