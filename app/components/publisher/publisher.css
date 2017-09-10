@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #cdcdcd;
+}
+header {
+    height: 50px;
+    background-color: skyblue;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-color: red;
+}

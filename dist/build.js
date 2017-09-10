@@ -9762,10 +9762,6 @@ var _publisher = __webpack_require__(184);
 
 var _publisher2 = _interopRequireDefault(_publisher);
 
-var _index = __webpack_require__(185);
-
-var _index2 = _interopRequireDefault(_index);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(_publisher2.default, null), document.getElementById('content'));
@@ -22437,46 +22433,9 @@ var Publisher = function (_React$Component) {
                 "div",
                 { className: "publisher" },
                 _react2.default.createElement(
-                    "div",
-                    { className: "title" },
-                    _react2.default.createElement(
-                        "div",
-                        null,
-                        _react2.default.createElement(
-                            "a",
-                            { href: "#" },
-                            "\u7F51\u53CB\u66DD\u5149\u4E24\u5973\u5B69\u8E72\u7740\u7B49\u5730\u94C1,\u79F0\u6CA1\u6559\u517B,\u4F60\u600E\u4E48\u770B(\u6295\u7968)"
-                        )
-                    ),
-                    _react2.default.createElement(
-                        "div",
-                        { className: "tips" },
-                        _react2.default.createElement(
-                            "span",
-                            null,
-                            "\u8FD8\u53EF\u4EE5\u8F93\u5165"
-                        ),
-                        _react2.default.createElement(
-                            "strong",
-                            null,
-                            "140"
-                        ),
-                        "\u5B57"
-                    )
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { className: "textElDiv" },
-                    _react2.default.createElement("textarea", null)
-                ),
-                _react2.default.createElement(
-                    "div",
-                    { className: "btnWrap" },
-                    _react2.default.createElement(
-                        "a",
-                        { className: "publishBtn", href: "javascript:void(0)" },
-                        "\u53D1\u5E03"
-                    )
+                    "header",
+                    null,
+                    _react2.default.createElement("div", { className: "w" })
                 )
             );
         }
@@ -22486,12 +22445,6 @@ var Publisher = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Publisher;
-
-/***/ }),
-/* 185 */
-/***/ (function(module, exports) {
-
-throw new Error("Module parse failed: D:\\project-react\\app\\components\\publisher\\index.scss Unexpected token (2:0)\nYou may need an appropriate loader to handle this file type.\n| $color: red;\r\n| .title{\r\n|     color: $color;\r\n| }");
 
 /***/ })
 /******/ ]);
