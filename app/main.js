@@ -1,8 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Publisher from './components/publisher/publisher.js';
-
+import HelloMessage from './components/demo/demo.js';
+import Childre from './components/demo/childre.js';
+import Props from './components/demo/props.js';
+import Like from './components/demo/like.js';
 ReactDOM.render(
-    <Publisher />,
+    <div>
+        <Publisher />
+        <HelloMessage name="lm"/>
+        <Childre>
+            <span>123</span>
+            <span>123</span>
+        </Childre>
+        <Props />
+        <Like  />
+    </div>,
     document.getElementById('content')
-);
+); 

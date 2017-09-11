@@ -7,7 +7,7 @@ class Publisher extends React.Component {
         return (
             <div className="publisher">
                 <header>
-                    <div className="w"></div>
+                    <div className="w header"></div>
                 </header>
             </div>
         );
