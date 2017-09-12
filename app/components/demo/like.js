@@ -4,17 +4,17 @@ class Like extends React.Component{
     constructor() {
         super();
         this.state = {
-            like: false
+            isLiked: false
         }
     }
     handleClick() {
-        this.setState({like:!this.state.like})
+        this.setState({isLiked:!this.state.isLiked})
     }
     render() {
-        var text = this.state.like ? 'like' : 'do not like'
+        var text = this.state.isLiked ? 'like' : 'do not like'
         return(
             
-            <p onClick = {this.handleClick}>You {text} this. Click to toggle.</p>
+            <p onClick = {this.handleClick.bind(this)}>You {text} this. Click to toggle.</p>
         )
     }
 }

@@ -5,6 +5,7 @@ import HelloMessage from './components/demo/demo.js';
 import Childre from './components/demo/childre.js';
 import Props from './components/demo/props.js';
 import Like from './components/demo/like.js';
+import Instrom from './components/demo/instrom.js';
 ReactDOM.render(
     <div>
         <Publisher />
@@ -15,6 +16,7 @@ ReactDOM.render(
         </Childre>
         <Props />
         <Like  />
+        <Instrom />
     </div>,
     document.getElementById('content')
 ); 
