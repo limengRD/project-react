@@ -92,4 +92,9 @@ var LikeButton = React.createClass({
     document.body
   );
 }
+render() {
+  return (<div style={{opacity: this.state.opacity}}>
+    <Hello name = 'world' />
+  </div>)
+}
 export default Instrom;
